@@ -1,5 +1,5 @@
 ---
-name: selection-loop
+name: checkbox-automation
 description: "Select, check, or uncheck exact inclusive ranges across paginated web lists and result tables by global item number. Use when a user asks for ranges such as questions 501–750, wants different ranges assigned to multiple browser tabs, needs previous selections cleared outside each range, or wants the tabs verified and left open."
 ---
 
@@ -104,11 +104,11 @@ Default to leaving the tabs open and do not click Export unless the user explici
 Single tab:
 
 ```text
-Use $selection-loop on the existing results tab. Set 50 per page, select global questions 501–750, clear selections outside that range, verify the site reports 250 selected, and leave the tab open. Do not click Export.
+Use $checkbox-automation on the existing results tab. Set 50 per page, select global questions 501–750, clear selections outside that range, verify the site reports 250 selected, and leave the tab open. Do not click Export.
 ```
 
 Multiple tabs:
 
 ```text
-Use $selection-loop on the existing results tabs. The result set has 1297 items and should use 50 per page. Tab 1: select 501–750. Tab 2: select 751–1000. Clear selections outside each assigned range, verify 250 selected in each tab, and leave both tabs open. Do not click Export.
+Use $checkbox-automation on the existing results tabs. The result set has 1297 items and should use 50 per page. Tab 1: select 501–750. Tab 2: select 751–1000. Clear selections outside each assigned range, verify 250 selected in each tab, and leave both tabs open. Do not click Export.
 ```
