@@ -1,0 +1,4 @@
+interface:
+  display_name: "Selection Loop"
+  short_description: "Select exact ranges across paginated checkbox lists"
+  default_prompt: "Use $selection-loop to select the requested item ranges across paginated checkbox lists, verify the counts, and preserve the open tabs."
